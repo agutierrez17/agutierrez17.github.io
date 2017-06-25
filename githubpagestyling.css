@@ -10,6 +10,7 @@ html, body {
 body {
     background-color: #0C0129;
     background-position: center;
+    background-image: url("../Downloads/site_MG_5360.jpg")
     background-size: cover;
     background-blend-mode: soft-light;
 }

@@ -8,7 +8,8 @@ html, body {
 }
 
 body {
-    background-color: #001f4d;
+    background-color: #020244
+;
     background-position: center;
     background-image: url("https://i.imgur.com/pJcSVtk.jpg");
     background-size: cover;
@@ -36,13 +37,13 @@ body {
     margin-top: 15px;
     text-align: center;
     color: white;
-    font-size: 14pt;
+    font-size: 20pt;
     font-family: serif;
 }
 
 .button {
     margin: 50px auto;
-    display: block;
+    display: inline-block;
     width: 180px;
     height: 50px;
     border: 3px solid white;
@@ -50,8 +51,9 @@ body {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
+    font-size: 12pt;
     border-radius: 5px;
-
+    transform: translate(15%, 0);
     transition: background-color 1000ms, color 1000ms;
 }
 
